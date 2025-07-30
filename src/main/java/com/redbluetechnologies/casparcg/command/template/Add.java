@@ -11,8 +11,8 @@ public class Add extends Command {
     private static String escape(String input) {
         return input
                 .replace("\\", "\\\\")
-                .replace("\"", "\\\"")
-                .replace("\n", "\\n")
-                .replace("\r", "\\r");
+                .replace("\"", "\\\"");
+                //.replace("\n", "\\n")
+                //.replace("\r", "\\r");
     }
 }
